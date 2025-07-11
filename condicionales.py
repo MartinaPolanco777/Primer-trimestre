@@ -379,4 +379,4 @@
 # elif 80 <= puntaje <= 100:
 #     print(f"Tu puntaje es {puntaje}. Resultado: Sobresaliente.")
 # else:
-#     print("Puntaje inválido. Debe estar entre 0 y 100.")
+#     print("Puntaje inválido. Debe estar entre 0 y 100.") #####
