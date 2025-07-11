@@ -15,7 +15,7 @@
 
 # num1= float(input("ingresa el primer numero: "))
 # num2= float(input("ingresa el segundo numero: "))
-# if num1>num2:
+# if num1>num2:##########
 #     print(f"el numero {num1} es mayor que {num2}")
 # elif num2>num1:
 #     print(f"el numero {num2} es mayor que {num1}")
