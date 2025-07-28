@@ -380,3 +380,90 @@
 #     print(f"Tu puntaje es {puntaje}. Resultado: Sobresaliente.")
 # else:
 #     print("Puntaje inválido. Debe estar entre 0 y 100.") #####
+
+
+#TALLER DE PRACTICA
+#1 verifica si el numero es positivo, negativo o cero
+
+# numeros = float(input(f"dame un numero"))
+# if numeros > 0:
+#     print(f"el numero es positivo")
+# elif numeros < 0:
+#     print(f"el numero es negativo")
+# else:
+#    print(f"tu numero es 0")   
+
+# 2 calcula el mayorde dos numeros ingresados
+# numero = [float(input(f"dame un numero: ")) , float(input(f"dame un numero: "))]
+# if numero[0] > numero[1]:
+#     print(f"El numero mayor es {numero[0]}")
+# elif numero[1] > numero[0]:
+#      print(f"El numero mayor es {numero[1]}")
+# else:
+#     print(f"Los numeros que diste son iguales")
+
+
+# 3 determina si un numero es par o impar
+# numero = float(input(f"dame un numero para saber si es par o impar"))
+# if numero % 2 == 0:
+#     print(f"el numero es par")
+# else:
+#     print(f"el numero es impar")
+
+# 4 dado un numero, verififca si esta entre 10 y 20
+# numero = float(input(f"Ingrese un numero: "))
+# if numero >= 10 and numero <= 20:
+#      print(f"El numero si esta entre 10 y 20")
+# else:
+#      print(f"El numero  no esta entre 10 y 20") 
+
+#5 dado 3 numeros, encuentra el mayor usando condicionales 
+
+# n1= int (input("Ingrese el primer numero: "))
+# n2= int (input("Ingrese el segundo numero: "))
+# n3= int (input("Ingrese el tercer numero: "))
+
+# if n1 >= n2 and n1 >= n3:
+#     print (f"El numero mayor es {n1}")
+
+# if n2 >= n1 and n2 >= n3:
+#     print (f"El numero mayor es {n2}")
+
+# if n3 >= n1 and n3 >= n2:
+#     print (f"El numero mayor es {n3}")
+
+#6 calcula el precio  finaL CON UN  10%  de descuento si el total es mayor a $100
+
+# total = float(input("Ingresa el precio total: "))
+
+# if total > 100:
+#     descuento = total * 0.10
+#     precio_final = total - descuento
+# else:
+#     precio_final = total
+
+# print("El precio final es:", precio_final)
+
+#7 verifica si una persona puede votar (mayor o igual a 18 años)
+
+# edad = int(input("Ingrese su edad: "))
+# if edad >= 18:
+#     print ("SI puedes votar")
+# else:
+#     print ("NO puede votar")
+
+#8 Dado el precio y tipo de cliente (VIP O NORMAL), aplica un descuento del 20% solo a VIP
+
+# precio1 = float(input("Ingresa el precio del producto: "))
+
+# CLI = input("Ingresa el tipo de cliente (vip o normal): ")
+
+# if CLI == "vip":
+#     descuento = 0.8
+#     preciofinal = precio * (descuento)
+#     print("Si obtienes el descuento del 20%")
+# else:
+#     preciofinal = precio
+#     print("No obtienes descuento")
+
+# print(f"El Precio final es: {preciofinal}")
