@@ -467,3 +467,181 @@
 #     print("No obtienes descuento")
 
 # print(f"El Precio final es: {preciofinal}")
+
+# EJERCICIO9
+
+# num = int(input("Numero "))
+# if num % 3 == 0 and num % 5 == 0:
+#     print("Es multiplo de 3 y 5")
+# else:
+#     print("No es multiplo de 3 y 5")
+
+# EJERCICIO 10
+
+# num = int(input("Numero "))
+# num1 = int(input("Divisor 1 "))
+# num2 = int(input("Divisor 2 "))
+# if num % num1 == 0 and num % num2 == 0:
+#     print("Es divisible entre los dos")
+# else:
+#     print("No es divisible entre los dos")
+
+# EJERCICIO 11
+
+# n1 = int(input("Numero 1 "))
+# n2 = int(input("Numero 2 "))
+# n3 = int(input("Numero 3 "))
+# n4 = int(input("Numero 4 "))
+# n5 = int(input("Numero 5 "))
+# if n3 > 10:
+#     print("Mayor a 10")
+# else:
+#     print("Menor o igual a 10")
+
+# EJERCICIO 12
+
+# lista = [3,5,7,9]
+# if 7 in lista:
+#     print("Esta en la lista")
+# else:
+#     print("No esta en la lista")
+
+# EJERCICIO 13
+
+# lista= [4,6,2,8]
+
+# suma= lista[0] + lista[1] 
+
+# if suma > 10:
+#     print("Suma alta")
+
+# else:
+#     print("Suma baja")
+
+# EJERCICIO 14
+
+# lista= ["Ana","Luis","Pedro","Marta"]
+
+# ultimo= lista[-1]
+
+# if ultimo == "Marta":
+#     print("Nombre correcto")
+# else:
+#     print("Nombre diferente")
+
+# EJERCICIO 15
+
+# colores= ["rojo","azul","verde"]
+
+# if colores[1] == "azul":
+#     colores[1] = "amarillo"
+#     print(f"Se cambio el color, asi queda la lista actualizada: {colores}")
+# else:
+#     print(f"No se cambió el color: {colores}")
+
+# EJERCICIO 16
+
+# numeros= (5, 8, 12, 20)
+
+# if numeros[0] < numeros[-1]:
+#     print("Orden ascendente")
+# else:
+#     print("Orden descendente")
+
+# EJERCICIO 17
+
+# edades= (25, 32, 28)
+
+# if edades[1] > 30:
+#     print("Edad mayor a 30")
+# else:
+#     print("Edad menor o igual a 30")
+
+# EJERCICIO 18
+
+# tupla= (1, 2, 3)
+# lista= list(tupla)
+
+# if lista[1] == 2:
+#     lista[1] = 10
+
+# tupla = tuple(lista)
+# print(tupla)
+
+# EJERCICIO 19
+
+# coordenadas = (4, 9)
+
+# if coordenadas[1] > 5:
+#     print("Coordenada alta")
+# else:
+#     print("Coordenada baja")
+
+# EJERCICIO 20
+
+# tupla1 = (3, 4)
+# tupla2 = (3, 5)
+
+# if tupla1 == tupla2:
+#     print("Tuplas iguales")
+# else:
+#     print("Tuplas diferentes")
+
+# EJERCICIO 21
+
+# persona = {
+#     "nombre": "Juan",
+#     "edad": 17
+# }
+
+# if persona["edad"] >= 18:
+#     print("Adulto")
+# else:
+#     print("Menor de edad")
+
+# EJERCICIO 22
+
+# persona = {
+#     "nombre": "Lucia",
+#     "edad": 20
+# }
+
+# if persona["edad"] > 18:
+#     persona["edad"] = 21
+
+# print(persona)
+
+# EJERCICIO 23
+
+# persona = {
+#     "nombre": "Carlos"
+# }
+
+# persona["ciudad"] = "Bogota"
+
+# print(persona)
+
+# EJERCICCIO 24
+
+# producto = {
+#     "producto": "pan",
+#     "precio": 1200
+# }
+
+# if "precio" in producto:
+#     print(producto["precio"])
+# else:
+#     print("No hay precio")
+
+
+# EJERCICIO 25
+
+# precios = {
+#     "pan": 1200,
+#     "leche": 2000
+# }
+
+# if "pan" in precios:
+#     print(precios["pan"])
+# else:
+#     print("Producto no disponible"
